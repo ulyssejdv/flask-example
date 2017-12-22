@@ -6,10 +6,14 @@ app = Flask(__name__)
 
 
 USER_LIST = [
-    "ulysse",
-    "romain",
-    "usman",
-    "boubacar"
+    {
+        "nom": "de villartay",
+        "prenom": "ulysse"
+    },
+    {
+        "nom": "alberca",
+        "prenom": "romain"
+    }
 ]
 
 
